@@ -1,6 +1,6 @@
 .home_container {
   border-radius: 25px;
-  width: 90%;
+  width: 80%;
   color: white;
   display: flex;
   justify-content: center;
@@ -9,9 +9,20 @@
   font-size: 4rem;
   font-style: italic;
   font-weight: bold;
+  margin-top: 4rem;
+  padding: 1rem;
+  backdrop-filter: blur(5px) saturate(50%);
+  -webkit-backdrop-filter: blur(5px) saturate(50%);
+  background-color: rgba(17, 25, 40, 0.55);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .home_container p {
   text-shadow: 3px 3px 3px black;
   width: 60%;
   text-align: center;
+}
+.thought::first-letter {
+  font-style: oblique;
+  font-size: 90px;
 }

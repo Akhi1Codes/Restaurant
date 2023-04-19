@@ -1,7 +1,7 @@
 .ramen_container {
-  position: absolute;
-  bottom: -45%;
+  overflow: hidden;
+  margin-top: 4rem;
 }
 .ramenImage {
-  height: 40em;
+  height: 30em;
 }
