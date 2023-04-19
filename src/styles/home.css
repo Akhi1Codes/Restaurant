@@ -1,0 +1,17 @@
+.home_container {
+  border-radius: 25px;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-grow: 5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.home_container p {
+  text-shadow: 3px 3px 3px black;
+  width: 60%;
+  text-align: center;
+}
