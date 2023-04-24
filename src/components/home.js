@@ -1,5 +1,5 @@
 function home() {
-  const content = document.getElementById("content");
+  const container = document.getElementsByClassName("container")[0];
 
   const home_background = document.createElement("div");
   home_background.classList.add("home_container");
@@ -12,7 +12,7 @@ function home() {
   text.classList.add("thought");
   home_background.appendChild(text);
 
-  content.appendChild(home_background);
+  container.appendChild(home_background);
 
   return home_background;
 }

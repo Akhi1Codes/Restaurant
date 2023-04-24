@@ -28,7 +28,7 @@ body {
   color: white;
   padding: 8px;
 }
-.nav_container {
+.container {
   width: 90%;
   padding-top: 0.5em;
   display: flex;

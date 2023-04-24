@@ -2,7 +2,7 @@ function navbar() {
   const content = document.getElementById("content");
 
   const nav = document.createElement("div");
-  nav.classList.add("nav_container");
+  nav.classList.add("container");
 
   const navEle = document.createElement("div");
   navEle.classList.add("nav_elements");
