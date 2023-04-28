@@ -7,7 +7,7 @@ function ramen() {
   ramen_background.classList.add("ramen_container");
 
   const ramen_img = document.createElement("img");
-  ramen_img.src = "../assets/ramen.png";
+  ramen_img.src = "./assets/ramen.png";
   ramen_img.classList.add("ramenImage");
 
   ramen_background.appendChild(ramen_img);
