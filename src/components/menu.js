@@ -4,32 +4,32 @@ function Menu() {
   const items = [
     {
       name: "Curry Ramen",
-      image: "../src/assets/curryramen.webp",
+      image: "./src/assets/curryramen.webp",
       price: "$3.00",
     },
     {
       name: "Mazenmen Ramen",
-      image: "../src/assets/mazemen.webp",
+      image: "./src/assets/mazemen.webp",
       price: "$2.00",
     },
     {
       name: "Sapporo Ramen",
-      image: "../src/assets/sappororamen.webp",
+      image: "./src/assets/sappororamen.webp",
       price: "$5.00",
     },
     {
       name: "Shoyu Ramen",
-      image: "../src/assets/shoyuramen.webp",
+      image: "./src/assets/shoyuramen.webp",
       price: "$2.50",
     },
     {
       name: "TanTanmen Ramen",
-      image: "../src/assets/tantanmen.webp",
+      image: "./src/assets/tantanmen.webp",
       price: "$3.50",
     },
     {
       name: "Tonkotsu Ramen",
-      image: "../src/assets/tonkotsuramen.webp",
+      image: "./src/assets/tonkotsuramen.webp",
       price: "$4.00",
     },
   ];
