@@ -1,15 +1,23 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
+  "homepage": "https://Ar-Akhil.github.io/Restaurant",
+  "repository": {
+    "url": "git+https://github.com/Ar-Akhil/Restaurant.git"
+  },
   "description": "A learing point for webpack tech",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
