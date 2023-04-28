@@ -1,4 +1,4 @@
-import "../styles/ramenRoll.css";
+import "styles/ramenRoll.css";
 
 function ramen() {
   const content = document.getElementById("content");
