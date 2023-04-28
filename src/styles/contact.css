@@ -1,0 +1,24 @@
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(5px) saturate(50%);
+  -webkit-backdrop-filter: blur(5px) saturate(50%);
+  background-color: rgba(17, 25, 40, 0.55);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.title {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+.details {
+  color: white;
+  font-size: 2rem;
+  width: 80%;
+  text-align: center;
+}

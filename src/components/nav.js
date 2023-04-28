@@ -1,4 +1,9 @@
-function navbar() {
+import "../styles/nav.css";
+import Home from "./home";
+import Menu from "./menu";
+import Contact from "./contact";
+
+function Navbar() {
   const content = document.getElementById("content");
 
   const nav = document.createElement("div");
@@ -18,16 +23,39 @@ function navbar() {
   const home = document.createElement("a");
   home.classList.add("home");
   home.textContent = "HOME";
+  home.addEventListener("click", (e) => {
+    const container = document.getElementById("content");
+
+    container.textContent = "";
+    Navbar();
+    Home();
+  });
   navButtons.appendChild(home);
 
-  const about = document.createElement("a");
-  about.classList.add("about");
-  about.textContent = "ABOUT";
-  navButtons.appendChild(about);
+  const menu = document.createElement("a");
+  menu.classList.add("menu");
+  menu.textContent = "MENU";
+  menu.addEventListener("click", (e) => {
+    const container = document.getElementById("content");
+
+    container.textContent = "";
+
+    Navbar();
+    Menu();
+  });
+  navButtons.appendChild(menu);
 
   const contact = document.createElement("a");
   contact.classList.add("contact");
   contact.textContent = "CONTACT";
+  contact.addEventListener("click", (e) => {
+    const container = document.getElementById("content");
+
+    container.textContent = "";
+
+    Navbar();
+    Contact();
+  });
   navButtons.appendChild(contact);
 
   navEle.appendChild(navButtons);
@@ -35,7 +63,5 @@ function navbar() {
   nav.appendChild(navEle);
 
   content.appendChild(nav);
-
-  return nav;
 }
-export default navbar;
+export default Navbar;

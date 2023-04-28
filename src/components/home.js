@@ -1,4 +1,7 @@
-function home() {
+import "../styles/home.css";
+import Ramen from "./ramenRoll";
+
+function Home() {
   const container = document.getElementsByClassName("container")[0];
 
   const home_background = document.createElement("div");
@@ -13,7 +16,6 @@ function home() {
   home_background.appendChild(text);
 
   container.appendChild(home_background);
-
-  return home_background;
+  Ramen();
 }
-export default home;
+export default Home;

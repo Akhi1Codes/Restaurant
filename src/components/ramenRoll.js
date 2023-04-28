@@ -1,3 +1,5 @@
+import "../styles/ramenRoll.css";
+
 function ramen() {
   const content = document.getElementById("content");
 
@@ -11,7 +13,5 @@ function ramen() {
   ramen_background.appendChild(ramen_img);
 
   content.appendChild(ramen_background);
-
-  return ramen_background;
 }
 export default ramen;

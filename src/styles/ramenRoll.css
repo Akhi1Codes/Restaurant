@@ -1,7 +1,24 @@
 .ramen_container {
   overflow: hidden;
-  margin-top: 4rem;
+  padding-top: 30px;
 }
 .ramenImage {
   height: 30em;
+}
+.ramenImage {
+  animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ramenImage {
+    height: 20em;
+  }
 }
