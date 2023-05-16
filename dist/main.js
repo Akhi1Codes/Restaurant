@@ -226,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.css */ \"./src/styles/menu.css\");\n\n\nfunction Menu() {\n  const items = [\n    {\n      name: \"Curry Ramen\",\n      image: \"../assets/curryramen.webp\",\n      price: \"$3.00\",\n    },\n    {\n      name: \"Mazenmen Ramen\",\n      image: \"../assets/mazemen.webp\",\n      price: \"$2.00\",\n    },\n    {\n      name: \"Sapporo Ramen\",\n      image: \"../assets/sappororamen.webp\",\n      price: \"$5.00\",\n    },\n    {\n      name: \"Shoyu Ramen\",\n      image: \"../assets/shoyuramen.webp\",\n      price: \"$2.50\",\n    },\n    {\n      name: \"TanTanmen Ramen\",\n      image: \"../assets/tantanmen.webp\",\n      price: \"$3.50\",\n    },\n    {\n      name: \"Tonkotsu Ramen\",\n      image: \"../assets/tonkotsuramen.webp\",\n      price: \"$4.00\",\n    },\n  ];\n\n  const container = document.getElementsByClassName(\"container\")[0];\n\n  const menu_background = document.createElement(\"div\");\n  menu_background.classList.add(\"menu_container\");\n\n  const menu_items = document.createElement(\"div\");\n  menu_items.classList.add(\"menu_items\");\n\n  for (let i = 0; i < items.length; i++) {\n    const items_container = document.createElement(\"div\");\n    items_container.classList.add(\"item_container\");\n\n    const item_name = document.createElement(\"h3\");\n    item_name.classList.add(\"itemName\");\n    item_name.textContent = items[i].name;\n\n    const item_image = document.createElement(\"img\");\n    item_image.classList.add(\"itemImage\");\n    item_image.src = items[i].image;\n\n    const item_price = document.createElement(\"p\");\n    item_price.classList.add(\"itemPrice\");\n    item_price.textContent = items[i].price;\n\n    items_container.appendChild(item_image);\n    items_container.appendChild(item_name);\n    items_container.appendChild(item_price);\n\n    menu_items.appendChild(items_container);\n  }\n  console.log(\"connected\");\n  menu_background.appendChild(menu_items);\n  container.appendChild(menu_background);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.css */ \"./src/styles/menu.css\");\n/* harmony import */ var _assets_curryramen_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/curryramen.webp */ \"./src/assets/curryramen.webp\");\n/* harmony import */ var _assets_mazemen_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/mazemen.webp */ \"./src/assets/mazemen.webp\");\n/* harmony import */ var _assets_sappororamen_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/sappororamen.webp */ \"./src/assets/sappororamen.webp\");\n/* harmony import */ var _assets_shoyuramen_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/shoyuramen.webp */ \"./src/assets/shoyuramen.webp\");\n/* harmony import */ var _assets_tantanmen_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/tantanmen.webp */ \"./src/assets/tantanmen.webp\");\n/* harmony import */ var _assets_tonkotsuramen_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/tonkotsuramen.webp */ \"./src/assets/tonkotsuramen.webp\");\n\n\n\n\n\n\n\n\nfunction Menu() {\n  const items = [\n    {\n      name: \"Curry Ramen\",\n      image: _assets_curryramen_webp__WEBPACK_IMPORTED_MODULE_1__,\n      price: \"$3.00\",\n    },\n    {\n      name: \"Mazenmen Ramen\",\n      image: _assets_mazemen_webp__WEBPACK_IMPORTED_MODULE_2__,\n      price: \"$2.00\",\n    },\n    {\n      name: \"Sapporo Ramen\",\n      image: _assets_sappororamen_webp__WEBPACK_IMPORTED_MODULE_3__,\n      price: \"$5.00\",\n    },\n    {\n      name: \"Shoyu Ramen\",\n      image: _assets_shoyuramen_webp__WEBPACK_IMPORTED_MODULE_4__,\n      price: \"$2.50\",\n    },\n    {\n      name: \"TanTanmen Ramen\",\n      image: _assets_tantanmen_webp__WEBPACK_IMPORTED_MODULE_5__,\n      price: \"$3.50\",\n    },\n    {\n      name: \"Tonkotsu Ramen\",\n      image: _assets_tonkotsuramen_webp__WEBPACK_IMPORTED_MODULE_6__,\n      price: \"$4.00\",\n    },\n  ];\n\n  const container = document.getElementsByClassName(\"container\")[0];\n\n  const menu_background = document.createElement(\"div\");\n  menu_background.classList.add(\"menu_container\");\n\n  const menu_items = document.createElement(\"div\");\n  menu_items.classList.add(\"menu_items\");\n\n  for (let i = 0; i < items.length; i++) {\n    const items_container = document.createElement(\"div\");\n    items_container.classList.add(\"item_container\");\n\n    const item_name = document.createElement(\"h3\");\n    item_name.classList.add(\"itemName\");\n    item_name.textContent = items[i].name;\n\n    const item_image = document.createElement(\"img\");\n    item_image.classList.add(\"itemImage\");\n    item_image.src = items[i].image;\n\n    const item_price = document.createElement(\"p\");\n    item_price.classList.add(\"itemPrice\");\n    item_price.textContent = items[i].price;\n\n    items_container.appendChild(item_image);\n    items_container.appendChild(item_name);\n    items_container.appendChild(item_price);\n\n    menu_items.appendChild(items_container);\n  }\n  console.log(\"connected\");\n  menu_background.appendChild(menu_items);\n  container.appendChild(menu_background);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu.js?");
 
 /***/ }),
 
@@ -270,6 +270,26 @@ eval("module.exports = __webpack_require__.p + \"e757b54e6a09298b91dc.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/curryramen.webp":
+/*!************************************!*\
+  !*** ./src/assets/curryramen.webp ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4608451f36d8c262dc63.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/curryramen.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/mazemen.webp":
+/*!*********************************!*\
+  !*** ./src/assets/mazemen.webp ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"de390a88a2018a88d634.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/mazemen.webp?");
+
+/***/ }),
+
 /***/ "./src/assets/ramen.png":
 /*!******************************!*\
   !*** ./src/assets/ramen.png ***!
@@ -277,6 +297,46 @@ eval("module.exports = __webpack_require__.p + \"e757b54e6a09298b91dc.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"3bac18b0c2ae55c10708.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.png?");
+
+/***/ }),
+
+/***/ "./src/assets/sappororamen.webp":
+/*!**************************************!*\
+  !*** ./src/assets/sappororamen.webp ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"73464ae7be7d46251b48.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/sappororamen.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/shoyuramen.webp":
+/*!************************************!*\
+  !*** ./src/assets/shoyuramen.webp ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6ff02821bc93d1ebf09a.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/shoyuramen.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/tantanmen.webp":
+/*!***********************************!*\
+  !*** ./src/assets/tantanmen.webp ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e217ffae76f0a79d0fe9.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/tantanmen.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/tonkotsuramen.webp":
+/*!***************************************!*\
+  !*** ./src/assets/tonkotsuramen.webp ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0e8fa07ed6a0c1fafe2c.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/tonkotsuramen.webp?");
 
 /***/ })
 
