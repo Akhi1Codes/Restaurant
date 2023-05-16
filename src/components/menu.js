@@ -1,35 +1,41 @@
 import "../styles/menu.css";
+import Curryramen from "../assets/curryramen.webp";
+import Mazemen from "../assets/mazemen.webp";
+import Sappororamen from "../assets/sappororamen.webp";
+import Shoyuramen from "../assets/shoyuramen.webp";
+import Tantanmen from "../assets/tantanmen.webp";
+import Tonkotsuramen from "../assets/tonkotsuramen.webp";
 
 function Menu() {
   const items = [
     {
       name: "Curry Ramen",
-      image: "../assets/curryramen.webp",
+      image: Curryramen,
       price: "$3.00",
     },
     {
       name: "Mazenmen Ramen",
-      image: "../assets/mazemen.webp",
+      image: Mazemen,
       price: "$2.00",
     },
     {
       name: "Sapporo Ramen",
-      image: "../assets/sappororamen.webp",
+      image: Sappororamen,
       price: "$5.00",
     },
     {
       name: "Shoyu Ramen",
-      image: "../assets/shoyuramen.webp",
+      image: Shoyuramen,
       price: "$2.50",
     },
     {
       name: "TanTanmen Ramen",
-      image: "../assets/tantanmen.webp",
+      image: Tantanmen,
       price: "$3.50",
     },
     {
       name: "Tonkotsu Ramen",
-      image: "../assets/tonkotsuramen.webp",
+      image: Tonkotsuramen,
       price: "$4.00",
     },
   ];
