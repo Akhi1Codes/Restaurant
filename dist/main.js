@@ -296,7 +296,7 @@ eval("module.exports = __webpack_require__.p + \"f24a5c40857f0feac8f3.webp\";\n\
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"18f109141b6a0e25a43e.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.webp?");
+eval("module.exports = __webpack_require__.p + \"45a0b25246a503a213d0.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.webp?");
 
 /***/ }),
 
