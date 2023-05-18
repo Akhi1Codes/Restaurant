@@ -23,6 +23,7 @@ function Navbar() {
   const home = document.createElement("a");
   home.classList.add("home");
   home.textContent = "HOME";
+  home.setAttribute("href", "");
   home.addEventListener("click", (e) => {
     const container = document.getElementById("content");
 
@@ -35,6 +36,7 @@ function Navbar() {
   const menu = document.createElement("a");
   menu.classList.add("menu");
   menu.textContent = "MENU";
+  menu.setAttribute("href", "");
   menu.addEventListener("click", (e) => {
     const container = document.getElementById("content");
 
@@ -48,6 +50,7 @@ function Navbar() {
   const contact = document.createElement("a");
   contact.classList.add("contact");
   contact.textContent = "CONTACT";
+  contact.setAttribute("href", "");
   contact.addEventListener("click", (e) => {
     const container = document.getElementById("content");
 
