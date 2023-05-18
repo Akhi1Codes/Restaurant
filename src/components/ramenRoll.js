@@ -1,5 +1,5 @@
 import "../styles/ramenRoll.css";
-import Ramenroll from "../assets/ramen.png";
+import Ramenroll from "../assets/ramen.webp";
 
 function ramen() {
   const content = document.getElementById("content");
