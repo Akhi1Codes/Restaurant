@@ -9,6 +9,7 @@ function ramen() {
 
   const ramen_img = document.createElement("img");
   ramen_img.src = Ramenroll;
+  ramen_img.setAttribute("alt", "bowl of ramen");
   ramen_img.classList.add("ramenImage");
 
   ramen_background.appendChild(ramen_img);

@@ -58,6 +58,7 @@ function Menu() {
 
     const item_image = document.createElement("img");
     item_image.classList.add("itemImage");
+    item_image.setAttribute("alt", "Image of a type of ramen");
     item_image.src = items[i].image;
 
     const item_price = document.createElement("p");
