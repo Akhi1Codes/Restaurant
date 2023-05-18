@@ -266,7 +266,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1529370e2a4955a32b5c.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/bg.webp?");
+eval("module.exports = __webpack_require__.p + \"2589aedde86fce5024bd.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/bg.webp?");
 
 /***/ }),
 
@@ -296,7 +296,7 @@ eval("module.exports = __webpack_require__.p + \"f24a5c40857f0feac8f3.webp\";\n\
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"45a0b25246a503a213d0.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.webp?");
+eval("module.exports = __webpack_require__.p + \"0a98cb7184b3327cd1c4.webp\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.webp?");
 
 /***/ }),
 
